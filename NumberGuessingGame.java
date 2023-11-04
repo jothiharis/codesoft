@@ -19,7 +19,6 @@ int Score;
         while (true) {
             int secretNumber = random.nextInt(maxNum - minNum + 1) + minNum;
             int attempts = 0;
-            System.out.println(secretNumber);
             System.out.println("Round " + (rounds + 1));
             System.out.println("Guess a number between " + minNum + " and " + maxNum + ".");
            
